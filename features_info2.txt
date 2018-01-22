@@ -1,4 +1,4 @@
-Variables in final/final2 datasets
+Variables in final2 dataset
 =================
 
 Subject: The number of the subject, which is a range of integers from 1 to 30.
@@ -40,7 +40,7 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value
 std(): Standard deviation
 
-
+Each row of the final2 dataframe is one of 180 possible combinations of subject and activity from the 'final' dataset. The data in columns 3-68 of the final2 dataframe represent the mean of each variable from the 'final' dataset uning that combination of subject and activity. Thus, each row is one possible observation, and each column is one variable.
 
 
 
