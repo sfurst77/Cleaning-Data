@@ -1,4 +1,4 @@
-How script does analysis:
+How run_analysis.R does analysis:
 
 lines 1-4 load the packages needed for analysis.
 
