@@ -1,4 +1,4 @@
-How run_analysis.R does analysis:
+How run_analysis.R does its analysis and data manipulation:
 
 lines 1-4 load the packages needed for analysis.
 
