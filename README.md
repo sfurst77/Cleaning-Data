@@ -4,7 +4,7 @@ lines 1-4 load the packages needed for analysis.
 
 Lines 5-11 load in all the data.
 
-Line 13 designates the variable 'V2' of the features.txt data as the names that will be used for the training data (traindata), which is all the numerical data variables.
+Line 13 designates the variable 'V2' of features.txt data as the names that will be used for the training data (traindata), which is all the numerical data variables.
 
 Line 14 creates a new variable in traindata called "subject" that references 'trainsubject' (created from "subject_test.txt") to get the subject numbers for each row of data in traindata.
 
