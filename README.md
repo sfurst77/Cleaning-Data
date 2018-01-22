@@ -22,10 +22,8 @@ Lines 31-32 create two new datasets from 'final' that only include the variables
 
 Line 33 joins the 'subject' and 'activity' variables from the original 'final' dataset with the two datasets formed in lines 31-32.
 
-Line 34 writes this 'final' dataset to a file, however it is not included in the final project.
+Lines 36-38 take the 'final' dataset and create a 'final2' dataset. Each of the 180 combinations of the subject and activity variables in 'final' are created using the "group_by" function in dplyr, and then it calculates the mean for each of the columns in the 'final' dataset for each row.
 
-Lines 37-39 take the 'final' dataset and create a 'final2' dataset. Each of the 180 combinations of the subject and activity variables in 'final' are created using the "group_by" function in dplyr, and then it calculates the mean for each of the columns in the 'final' dataset for each row.
-
-Line 41 writes this 'final2' dataset to "final2.txt", which is the dataset included in the final project.
+Line 40 writes this 'final2' dataset to "final2.txt", which is the dataset included in the final project.
 
 As one can see, final2 has each of the 180 combinations of subject and activity, along with the mean in 'final' for each variable using each of those combinations.
